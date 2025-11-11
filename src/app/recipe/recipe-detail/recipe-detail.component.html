@@ -14,8 +14,10 @@
 
   <h3>Pasos</h3>
   <ol>
-    <li *ngFor="let step of recipe.pasos">
+    @for(step of recipe.pasos; track step){
+    <li>
       {{ step }}
     </li>
+    }
   </ol>
 </div>
