@@ -23,4 +23,5 @@ export class MovieListComponent implements OnInit {
     this.selectedMovie = movie;
     this.selected = true;
   }
+  
 }

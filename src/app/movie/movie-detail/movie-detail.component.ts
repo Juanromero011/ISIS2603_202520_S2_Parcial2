@@ -25,7 +25,7 @@ export class MovieDetailComponent implements OnInit, OnChanges {
 
   private updateTrailerUrl(): void {
     if (this.movie?.trailer_url) {
-      // Convertir URL de YouTube watch a embed si es necesario
+      
       let embedUrl = this.movie.trailer_url;
       if (embedUrl.includes('watch?v=')) {
         embedUrl = embedUrl.replace('watch?v=', 'embed/');

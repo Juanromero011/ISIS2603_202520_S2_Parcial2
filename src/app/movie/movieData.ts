@@ -11,7 +11,7 @@ export const movieData = [
     'La historia de la familia Corleone, una poderosa dinastía de la mafia italiana en Nueva York.',
     'Francis Ford Coppola',
     'https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg',
-    'https://www.youtube.com/watch?v=sY1S34973zA',
+    'https://www.youtube.com/embed/sY1S34973zA',
     9.2,
     [
       new Actor('Marlon Brando', 'Vito Corleone', 'https://image.tmdb.org/t/p/w185/fuTEPWdcQzGqnCqQxKZCVcKGOgr.jpg', 45),
@@ -51,6 +51,40 @@ export const movieData = [
       new Actor('Christian Bale', 'Bruce Wayne / Batman', 'https://image.tmdb.org/t/p/w185/vecCvACI2QhSE5fOoAXLVv9lWcN.jpg', 41),
       new Actor('Heath Ledger', 'Joker', 'https://image.tmdb.org/t/p/w185/5Y9HnYYa9jF4NunY9lSgJGjSe8E.jpg', 22),
       new Actor('Aaron Eckhart', 'Harvey Dent', 'https://image.tmdb.org/t/p/w185/aPJDdOdKhNVYGGJqNKSPVhyKJgT.jpg', 35),
+    ]
+  ),
+  new Movie(
+    4,
+    'Forrest Gump',
+    1994,
+    142,
+    ['Drama', 'Romance'],
+    'La extraordinaria vida de Forrest Gump, un hombre con discapacidad intelectual que vive eventos históricos importantes.',
+    'Robert Zemeckis',
+    'https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg',
+    'https://www.youtube.com/watch?v=bLvqoHBptjg',
+    8.8,
+    [
+      new Actor('Tom Hanks', 'Forrest Gump', 'https://image.tmdb.org/t/p/w185/xndWFsBlClOJFRdhSt4NBwiPq2o.jpg', 78),
+      new Actor('Robin Wright', 'Jenny Curran', 'https://image.tmdb.org/t/p/w185/9Pk6RcXzZWQihydkejKfKEAlCzT.jpg', 34),
+      new Actor('Gary Sinise', 'Teniente Dan', 'https://image.tmdb.org/t/p/w185/8yjrUz0aMhKyrLHNjBBkJGVvIpP.jpg', 56),
+    ]
+  ),
+  new Movie(
+    5,
+    'Inception',
+    2010,
+    148,
+    ['Acción', 'Ciencia Ficción', 'Thriller'],
+    'Un ladrón que roba secretos del subconsciente durante el estado de sueño recibe la tarea inversa de plantar una idea.',
+    'Christopher Nolan',
+    'https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg',
+    'https://www.youtube.com/watch?v=YoHD9XEInc0',
+    8.8,
+    [
+      new Actor('Leonardo DiCaprio', 'Dom Cobb', 'https://image.tmdb.org/t/p/w185/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg', 31),
+      new Actor('Marion Cotillard', 'Mal', 'https://image.tmdb.org/t/p/w185/2dGBb1fOcNdZjtQToVPFxXjm4ke.jpg', 47),
+      new Actor('Tom Hardy', 'Eames', 'https://image.tmdb.org/t/p/w185/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg', 29),
     ]
   ),
 ];
